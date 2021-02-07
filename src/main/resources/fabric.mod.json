@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "crystals",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "gg.slvr.crystals.CrystalClear"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "crystals.mixins.json"
   ],
 
   "depends": {
